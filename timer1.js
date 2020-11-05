@@ -9,7 +9,7 @@ for (let char of args) {
     x++;
     // console.log(char, typeof char);
     // console.log(Number, typeof Number);
-    console.log(char >= 0, char);
+    // console.log(char >= 0, char);
     if (char >= 0 && !isNaN(char)) {
       process.stdout.write('BEEP'); // Replace this with <process.stdout.write('\x07')>;
     }
